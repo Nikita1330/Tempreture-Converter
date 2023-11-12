@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>temp</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="title">
+                <h1>Tempreture Converter</h1>
+                <span class="temprature-icon">
+                <i class="fa-solid fa-temperature-low"></i>
+                </span>
+            </div>
+            <div id="celcius">
+                <input type="number" placeholder="celcius">
+                <span class="icon">&#8451</span>
+            </div>
+            <div id="fahrenheit">
+                <input type="number" placeholder="fahrenheit">
+                <span class="icon">&#8457</span>
+            </div>
+            <div id="kelvin">
+                <input type="number" placeholder="kelvin">
+                <span class="icon">&#8490</span>
+            </div>
+            <div class="button">
+                <button>All Clear</button>
+            </div>
+            <div class="mode">
+                <label class="toggle" for="dark-mode-btn">
+                  <div class="toggle-track">
+                    <input type="checkbox" class="toggle-checkbox" id="dark-mode-btn" />
+                    <span class="toggle-thumb"></span>
+                    <img src="sun.png" alt="" />
+                    <img src="moon.png" alt="" />
+                  </div>
+              </label>
+              </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
